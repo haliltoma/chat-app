@@ -16,6 +16,7 @@ const {setMessages} = useChat();
 
   return (
     <div className='app'>
+    <h2>Chat app</h2>
         <ChatList/>
         <ChatForm/>
     </div>
