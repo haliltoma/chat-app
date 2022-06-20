@@ -12,7 +12,7 @@ const {setMessages} = useChat();
         setMessages(prevState => [...prevState, {message}])
         console.log('container')
       });
-  },[])
+  })
 
   return (
     <div className='app'>
